@@ -1,5 +1,5 @@
 ---
-title: usage-of-multitail.md
+title: usage-of-multitail
 ---
 
 # multitail
