@@ -1,5 +1,5 @@
 ---
-title: change-output-language-of-tomcat-on-intellij
+title: change tomcat output language
 ---
 
 ## press F9 on intellij 
