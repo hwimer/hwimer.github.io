@@ -28,7 +28,7 @@ CREATE USER '${user.id}'@'%' IDENTIFIED BY '${password}';
 
 ```sql
 GRANT ALL PRIVILEGES ON ${db.name}.* TO '${user.id}'@'%';
-FLUSH PRIVILEGESD -- Apply
+FLUSH PRIVILEGES;
 ```
 
 
