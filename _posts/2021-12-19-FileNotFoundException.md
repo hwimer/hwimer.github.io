@@ -2,8 +2,6 @@
 title: getFile() 은안되고, getInputStream은 되는이유 
 ---
 
-## to connect mariaDB console through root account 
-
  
 ### 문제발생
 ```
