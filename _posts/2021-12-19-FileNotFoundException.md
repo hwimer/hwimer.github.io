@@ -1,7 +1,7 @@
 ---
-title: getFile() 은안되고, getInputStream은 되는이유 
+title: [TroubleShooting] resource.getFile FileNotFoundException 
 ---
-
+## getFile() 은안되고, getInputStream은 되는이유
  
 ### 문제발생
 ```
