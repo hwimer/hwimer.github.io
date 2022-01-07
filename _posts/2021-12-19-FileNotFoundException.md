@@ -1,5 +1,5 @@
 ---
-title: [TroubleShooting] resource.getFile FileNotFoundException 
+title: \[TroubleShooting\] resource.getFile FileNotFoundException 
 ---
 ## getFile() 은안되고, getInputStream은 되는이유
  
