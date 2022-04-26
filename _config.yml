@@ -13,15 +13,15 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 #minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "five answer note"
+title                    : "갈길이 멀다..."
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "CS만먹는남자"
-description              : "이것저것"
+description              : ""
 url                      : "https://hwimer.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -94,11 +94,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "hr.kim"
+  name             : "hr_k"
 #  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   avatar           : "/assets/images/profile/ddange.jpg"
-  bio              : "for the return of the king"
-  location         : "Somewhere"
+  bio              : ""
+#  location         : ""
   email            :
   links:
     - label: "Email"
@@ -281,6 +281,8 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar_main: true
+#      sidebar_main: true
   # _pages
   - scope:
       path: "_pages"
