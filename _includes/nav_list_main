@@ -31,8 +31,8 @@
             <span class="nav__sub-title">CS</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "cs-encoding" %}
-                        <li><a href="/categories/cs-encode" class="">Encoding({{category[1].size}})</a></li>
+                    {% if category[0] == "encoding" %}
+                        <li><a href="/categories/encoding" class="">Encoding({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
