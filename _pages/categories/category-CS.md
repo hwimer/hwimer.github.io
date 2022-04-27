@@ -1,11 +1,11 @@
 ---
-title: "Java"
+title: "CS"
 layout: archive
-permalink: categories/Java
+permalink: categories/CS
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.Java%} 
+{% assign posts = site.categories.CS%} 
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

@@ -1,38 +1,29 @@
 ---
-title: management of maria
+title: MariaDB Grant 
+categories: 
+    - mariaDB 
+
+
 ---
 
-## to connect mariaDB console through root account 
 
-### connect
- 
-```
-${mariadb bin dir}\msyql -uroot -p
-```
-
-
-```sql
-USE mysql
-```
-
-#### SELECT USER LIST
+### Show User 
 ```sql
 SELECT HOST,USER,PASSWORD FROM USER
 ```
 
-### CREATE 
+### Generate User  
 ```sql
 CREATE USER '${user.id}'@'%' IDENTIFIED BY '${password}';
 ```
-### PERMISSION
+### Grant  
 
 ```sql
 GRANT ALL PRIVILEGES ON ${db.name}.* TO '${user.id}'@'%';
 FLUSH PRIVILEGES;
 ```
 
-
-### DELETE ACCOUNT
+### Delete User 
 ```sql
 DROP USER ${user.id}@${host}
 ```

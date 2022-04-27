@@ -13,11 +13,11 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 #minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "갈길이 멀다..."
+title                    : "내가보려고만든 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "CS만먹는남자"
@@ -99,7 +99,7 @@ author:
   avatar           : "/assets/images/profile/ddange.jpg"
   bio              : ""
 #  location         : ""
-  email            :
+  email            : roovcloudy@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -115,7 +115,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/hwimer"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"

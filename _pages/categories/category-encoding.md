@@ -1,5 +1,5 @@
 ---
-title: "encoding"
+title: "인코딩"
 layout: archive
 permalink: categories/encoding
 author_profile: true

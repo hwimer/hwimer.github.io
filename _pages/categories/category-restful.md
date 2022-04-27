@@ -1,11 +1,11 @@
 ---
-title: "Java"
+title: "Restful"
 layout: archive
-permalink: categories/Java
+permalink: categories/restful
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.Java%} 
+{% assign posts = site.categories.restful%} 
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

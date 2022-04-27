@@ -1,5 +1,8 @@
 ---
 title: mvc pattern
+categories: 
+    - spring 
+
 ---
 
 ### MVC

@@ -1,11 +1,11 @@
 ---
-title: "Java"
+title: "MariaDB"
 layout: archive
-permalink: categories/Java
+permalink: categories/mariaDB
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.Java%} 
+{% assign posts = site.categories.mariaDB%} 
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
