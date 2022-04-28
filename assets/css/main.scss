@@ -6,7 +6,8 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap&subset=korean');
+// @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap&subset=korean');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @import url("//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-full.css"); // d2coding font
 
 
@@ -18,4 +19,8 @@
   //font-family: -apple-system,BlinkMacSystemFont,"Nanum Gothic Coding","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   font-size: .7em;
   line-height: 1.5;
+}
+
+h2 {
+ font-size: 1em;
 }
