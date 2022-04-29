@@ -1,6 +1,20 @@
 ---
-title: Try Catch, Throw Exception 
+title: Try Catch, Throw Exception
+categories: 
+  - Java
+  - CS
 ---
+
+## 
+> 글의기원은 Spring의 Transaction처리는 
+> 기본적으로는.. RunTime계열은 rollback하고, Unchecked 계열은 rollback하지않음.
+> 그것은 어디까지나 기본적인 동작임..
+> Spring Transaction은 옵션으로 우리가 설정할 수 있게끔
+> 런타임 예외 중에서도 이러 이러한 예외는 롤백을 하지않게끔 설정할 수 있고, 
+> UnChecked 예외중에서도 이러이러한 롤백은 반대로 롤백을 하게끔 설정 할 수있음. 
+> 
+> Spring Transaction의 기본 전략으로 모든 예외를 업무에서 처리하지않기 때문에 
+
 ## Error와 Exception
 ### 오류(Error)란??
 > 오류는 "시스템에 비정상적인 상황이 생겼을 때 발생".
