@@ -20,7 +20,7 @@ locale                   : "ko-KR"
 title                    : "알잘딱깔센"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "CS만먹는남자"
+name                     : "놀면 뭐하니"
 description              : ""
 url                      : "https://hwimer.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
