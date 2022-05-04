@@ -1,5 +1,5 @@
 ---
-title: No space left on device
+title: Singleton 
 categories: 
     - spring 
     - designPattern 
