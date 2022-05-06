@@ -1,0 +1,50 @@
+.page__content p, .page__content li, .page__content dl {
+    font-size : 15px;
+}
+
+/* CUSTOM(OVERRIDE) */
+.sidebar p, .sidebar li {
+//font-family: -apple-system,BlinkMacSystemFont,"Nanum Gothic Coding","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-size: .8em;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+.toc {
+    .nav__title {
+        background: #000;
+    }
+}
+
+.toc__menu {
+
+    a {
+        font-weight: normal;
+    }
+}
+
+a {
+    // added for custom
+    text-decoration: none;
+}
+
+html {
+    @include breakpoint($medium) {
+        font-size: 16px;
+    }
+
+    @include breakpoint($large) {
+        font-size: 16px;
+    }
+
+    @include breakpoint($x-large) {
+        font-size: 16px;
+    }
+}
+
+//$right-sidebar-width-narrow: 100px !default;
+//$right-sidebar-width: 200px !default;
+//$right-sidebar-width-wide: 250px !default;

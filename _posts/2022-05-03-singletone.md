@@ -3,6 +3,9 @@ title: Singleton
 categories: 
     - spring 
     - designPattern 
+toc: true
+toc_sticky: true
+toc_label: Content 
 ---
 
 ### Singleton 
@@ -41,7 +44,7 @@ public class SingtonService {
 }
 ```
 
-### Spring과 Singleton
+### 왜 쓸까?(Spring과 Singleton)
 > spring == 자바 엔터프라이즈 프레임웍 <br>
 엔터프라이즈 == 기업을 대상으로하는 개발을 의미, <br>
 는 동시에 서비스를 이용하고자하는 사용자가 많을것이라는 의미를 내포함.<br><br>
@@ -52,5 +55,3 @@ public class SingtonService {
 결국 Spring에서 싱글톤 패턴을 제공하는 이유는 <br>
 위와 같은 비효율적인 자원낭비를 막기위해 모든 Bean을 싱글톤 객체로 생성해 모든 사용자들의<br>
 Thread가 공유될 수 있도록 만든것이다.<br> 
-
-
