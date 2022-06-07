@@ -84,6 +84,25 @@
                 {% endfor %}
             </ul>
 
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "algorithm" %}
+                        <li><a href="/categories/algorithm" class="">Algorithm({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "aws" %}
+                        <li><a href="/categories/aws" class="">AWS({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+
+
 <!--
             <span class="nav__sub-title">Language</span>
             <ul>
