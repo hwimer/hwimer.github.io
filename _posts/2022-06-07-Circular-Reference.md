@@ -76,6 +76,7 @@ graph TD;
 ```  
 ### 2. 옵션지정(스프링부트)
 > application.yml에 아래옵션을 통해 순환참조에 대해 허용. 
+ 
 ```yaml
 spring.main.allow-circular-references=true
 ```
