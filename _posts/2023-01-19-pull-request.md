@@ -1,4 +1,10 @@
 
+---
+title: PR 
+categories: 
+    - CS 
+
+---
 
 ### Pull Requeset
  원작자의 코드에 나의 코드를 기여하는 행위
