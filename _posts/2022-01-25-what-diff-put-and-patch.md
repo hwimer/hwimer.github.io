@@ -1,7 +1,7 @@
 ---
 title: PUT vs PATCH 
 categories:
-    - restful
+    - network 
 ---
 ## 무엇이다를까??? 
 

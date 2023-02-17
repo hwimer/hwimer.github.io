@@ -4,8 +4,8 @@
 title: You do not have the SUPER privilege
 categories: 
     - troubleShooting
-    - mariaDB
-    - RDS
+    - database 
+
 ---
 
 

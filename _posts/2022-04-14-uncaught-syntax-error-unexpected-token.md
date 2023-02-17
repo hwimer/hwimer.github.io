@@ -2,7 +2,6 @@
 title: Uncaught SyntaxError Unexpected token
 categories: 
     - troubleShooting
-    - restful 
 ---
 ### 문제발생: 
 > 백오피스 파일 다운로드 기능을 구현하던 중 Uncaught SyntaxError: Unexpected token '<' 오류가 발생.
@@ -26,5 +25,3 @@ categories:
 ```java
 @GetMapping("blabla")
 ```
-
-> 아니그런데 왜 오류가 화면단에서 나는거야.. 궁시렁 궁시렁.. 

@@ -1,7 +1,7 @@
 ---
 title: MariaDB Grant 
 categories: 
-    - mariaDB 
+    - database 
 
 
 ---

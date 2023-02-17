@@ -23,15 +23,6 @@
 
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "encoding" %}
-                        <li><a href="/categories/encoding" class="">Encoding({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
-
-            <ul>
-                {% for category in site.categories %}
                     {% if category[0] == "CS" %}
                         <li><a href="/categories/CS" class="">CS({{category[1].size}})</a></li>
                     {% endif %}
@@ -58,13 +49,6 @@
                 {% for category in site.categories %}
                     {% if category[0] == "Java" %}
                         <li><a href="/categories/Java" class="">Java({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "restful" %}
-                        <li><a href="/categories/restful" class="">RestFul({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -97,6 +81,22 @@
                 {% for category in site.categories %}
                     {% if category[0] == "aws" %}
                         <li><a href="/categories/aws" class="">AWS({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "network" %}
+                        <li><a href="/categories/network" class="">Network({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "data-structure" %}
+                        <li><a href="/categories/data-structure" class="">Data Structure({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
