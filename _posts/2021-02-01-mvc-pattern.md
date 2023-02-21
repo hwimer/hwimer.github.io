@@ -1,9 +1,10 @@
 ---
-title: mvc pattern
-categories: 
-    - spring 
-
+title: MVC
+categories:
+- spring
+- designPattern
 ---
+
 
 ### MVC
 > MVC = model + view + controller  
